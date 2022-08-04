@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  background-color: black;
+  user-select: none;
+}
+canvas {
+  background-color: black;
+}
+/* Id's */
+#TextArea {
+  position: absolute;
+  background-color: rgb(5,5,5);
+  color: #00bf20;
+  border: 10px solid #101010;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+  font-weight: 500;
+}
+#Pick1 {
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 5%;
+}
+#wood {
+  position: absolute;
+  /* top: undefined;
+  left: undefined; */
+  height: 40px;
+  color: #696969;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 30px;
+  background-color: #000;
+  bottom:0;
+  border-radius: 5%;
+  background-color: rgba(0, 0,  0, 0.5);
+  text-align: left;
+  border: 3px solid black;
+}
+
+#levelBarText {
+
+}
